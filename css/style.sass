@@ -1,0 +1,248 @@
+// Переменные (SASS)
+$black_color: #222
+$nored_color: #F16D7F
+// Стили базы
+*
+  margin: 0
+  padding: 0
+
+body
+  background: white
+  font-family: 'Lato', sans-serif
+
+.container
+  width: 1140px
+  margin: 0 auto
+
+// HEADER
+
+.page-header
+  background: $black_color
+  color: white
+  padding: 18px 0
+  .container
+    display: flex
+    justify-content: space-between
+    align-items: center
+.logo-img
+  margin-right: 40px
+.page_header__nav
+  .link
+    margin-right: 33px
+.promo-block
+  background: #F1E4E6
+  height: 764px
+
+// PROMO
+
+.promo
+  flex-grow: 1
+  background-image: url("../img/promo_img.png")
+  background-repeat: no-repeat
+  height: 100%
+  background-size: auto 100%
+
+.promo-margin_text
+  padding: 290px 100px 381px 630px
+.promo-block_text
+  border-left: 12px solid $nored_color
+  height: 92px
+  padding-left: 16px
+  &_heading
+    color: $black_color
+    font-weight: 900
+    font-size: 48px
+    line-height: 58px
+  &_discription
+    color: $black-color
+    font-weight: bold
+    font-size: 32px
+    line-height: 38px
+    &_highlighting
+      color: $nored_color
+
+// OFFER
+
+.offer-block
+  padding-top: 65px
+  &__cards
+    display: flex
+    justify-content: space-between
+  &__card
+    &__text
+      position: relative
+      bottom: 166px
+      &__big
+        position: relative
+        bottom: 115px
+    &__category
+      font-weight: 400
+      font-size: 16px
+      line-height: 19px
+      text-align: center
+      color: #FFFFFF
+    &__audience
+      font-weight: bold
+      font-size: 24px
+      line-height: 29px
+      text-align: center
+      color: #F16D7F
+    &__image
+      width: 100%
+
+
+
+// PRODUCTS
+
+.products-block
+  padding: 45px 0 95px
+  &__heading
+    font-size: 30px
+    line-height: 36px
+    color: $black-color
+    text-align: center
+  &__discription
+    font-size: 14px
+    line-height: 17px
+    color: #9F9F9F
+    text-align: center
+  &__cards
+    margin-top: 50px
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &__card
+    width: 360px
+    background: #F8F8F8
+    margin-bottom: 30px
+    &__img
+      width: 100%
+    &__text
+      padding: 25px 28px 20px 20px
+    &__heading
+      font-size: 13px
+      line-height: 16px
+    &__discription
+      font-weight: 300
+      font-size: 14px
+      line-height: 17px
+      color: #5D5D5D
+      margin-top: 12px
+      margin-bottom: 18px
+    &__price
+      font-size: 16px
+      line-height: 19px
+      color: #F16D7F
+  &__button
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 20px
+  &__button-products
+    padding: 15px 39px
+    background: #fff
+    font-size: 16px
+    line-height: 19px
+    color: #F26376
+    border: 1px solid #FF6A6A
+// DIGNITY 
+
+.dignity-block
+  padding: 105px 0
+  background: #222224
+  &__cards
+    display: flex
+    justify-content: space-around
+  &__card
+    text-align: center
+    color: #FBFBFB
+    &__img
+      margin-bottom: 28px
+    &__heading
+      font-size: 19.96px
+      line-height: 24px
+      margin-bottom: 16px
+    &__discription
+      font-weight: 300
+      font-size: 13.972px
+      line-height: 17px
+
+// FEEDBACK
+
+.feedback-block
+  padding: 90px 0 125px
+  background-image: url("../img/feedback_bg.png")
+  background-size: 100% 100%
+  .container
+    display: flex
+    justify-content: space-between
+  &__comment
+    text-align: center
+    width: 359px
+    &__img
+      margin-bottom: 30px
+    &__paragraph
+      font-size: 20px
+      line-height: 24px
+      color: #222224
+    &__span
+      font-style: italic
+  &__subscribe
+    text-align: center
+    padding-top: 65px
+    color: #222224
+    &__heading
+      font-weight: bold
+      font-size: 24px
+      line-height: 167.2%
+    &__discription
+      font-size: 18px
+      line-height: 167.2%
+    &__form
+      margin-top: 27px
+      &__email
+        border-radius: 50px 0 0 50px
+        border: none
+        outline: none
+        padding: 15px 60px 15px 22px
+        float: left
+        font-size: 14px
+        line-height: 17px
+        color: #222224
+        
+      &__button
+        float: left
+        padding: 15px
+        background: #F16D7F
+        color: white
+        font-size: 14px
+        line-height: 17px
+        border: none
+        border-radius: 0px 50px 50px 0px
+// FOOTER
+
+.footer-page
+  background: #222224
+  .container
+    display: flex
+    justify-content: space-between
+  &__copyright
+    font-size: 16px
+    line-height: 19px
+    color: #FBFBFB
+    margin: 30px 0
+
+    
+  &__social
+    display: flex
+    padding: 25px
+    &__icon
+      background: #fff
+      margin-left: 8px
+      width: 32px
+      height: 32px
+      display: flex
+      justify-content: center
+      align-items: center 
+      &:hover 
+        background: #F16D7F
