@@ -368,4 +368,44 @@ body {
 .footer-page__social__icon:hover {
   background: #F16D7F;
 }
+
+.catalog-page__header {
+  background: #F8F3F4;
+}
+
+.catalog-page__header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 65px 0;
+}
+
+.catalog-page__header__content__menu__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog-page__header__content__menu__list li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  margin-left: 5px;
+}
+
+.catalog-page__header__content__menu__list .active {
+  font-weight: bold;
+  color: #F16D7F;
+}
+
+.catalog-page__header h1 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
 /*# sourceMappingURL=style.css.map */
