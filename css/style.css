@@ -44,6 +44,15 @@ body {
   height: 764px;
 }
 
+.fa-search {
+  color: white;
+}
+
+.mr {
+  margin-right: 33px;
+  color: white;
+}
+
 .promo {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -369,11 +378,11 @@ body {
   background: #F16D7F;
 }
 
-.catalog-page__header {
+.inner-pageheader {
   background: #F8F3F4;
 }
 
-.catalog-page__header__content {
+.inner-pageheader__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,29 +392,97 @@ body {
   padding: 65px 0;
 }
 
-.catalog-page__header__content__menu__list {
-  list-style-type: none;
+.inner-pageheader__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.catalog-page__header__content__menu__list li {
+.inner-pageheader__navigation a {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #636363;
   margin-left: 5px;
+  text-decoration: none;
 }
 
-.catalog-page__header__content__menu__list .active {
+.inner-pageheader__navigation p {
   font-weight: bold;
   color: #F16D7F;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 5px;
 }
 
-.catalog-page__header h1 {
+.inner-pageheader h1 {
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
+}
+
+.filter {
+  width: 690px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter_text {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.fa-sort-amount-up {
+  margin-left: 10px;
+}
+
+.filter-category {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter_criterion {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.fa-chevron-down {
+  margin-left: 10px;
+}
+
+.page-navigation {
+  border: 1px solid #EBEBEB;
+  width: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px auto 0;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-navigation_link {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
