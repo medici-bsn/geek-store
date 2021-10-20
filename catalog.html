@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/372a582e56.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -18,49 +22,52 @@
     <header class="page-header">
       <div class="container">
         <div class="page-header__logo">
-          <a href="#"
-            ><img class="logo-img" src="../img/logo.svg" alt="Logo"
-          /></a>
-          <img src="../img/search.svg" alt="Search" />
+          <a href="#"><img class="logo-img" src="img/logo.svg" alt="Logo" /></a>
+          <a href="#"><i class="fas fa-search fa-2x"></i></a>
         </div>
         <div class="page_header__nav">
-          <img
-            class="link"
-            src="../img/header_menu-button.svg"
-            alt="Header-menu"
-          />
+          <i class="fas fa-bars fa-2x mr"></i>
           <a href="#">
-            <img class="link" src="../img/accounts.svg" alt="accounts" />
+            <i class="far fa-user fa-2x mr"></i>
           </a>
-          <a href="#"><img src="../img/basket.svg" alt="basket" /></a>
+          <a href="#"><img src="img/basket.svg" alt="basket" /></a>
         </div>
       </div>
     </header>
     <main>
       <section class="catalog">
-        <header class="catalog-page__header">
+        <header class="inner-pageheader">
           <div class="container">
-            <section class="catalog-page__header__content">
+            <section class="inner-pageheader__content">
               <h1>NEW ARRIVALS</h1>
-              <nav class="catalog-page__header__content__menu">
-                <ul class="catalog-page__header__content__menu__list">
-                  <li>HOME /</li>
-                  <li>MEN /</li>
-                  <li class="active">NEW ARRIVALS</li>
-                </ul>
-              </nav>
+              <div class="inner-pageheader__navigation">
+                <a href="index.html">HOME / </a>
+                <a href="#">MEN / </a>
+                <p>NEW ARRIVALS</p>
+              </div>
             </section>
           </div>
         </header>
         <div class="container">
           <article class="products-block">
             <div class="filter">
-              <span>FILTER</span>
+              <span class="filter_text"
+                >FILTER<i class="fas fa-sort-amount-up"></i
+              ></span>
+              <div class="filter-category">
+                <span class="filter_criterion"
+                  >TRENDING NOW<i class="fas fa-chevron-down"></i></span
+                ><span class="filter_criterion"
+                  >SIZE<i class="fas fa-chevron-down"></i></span
+                ><span class="filter_criterion"
+                  >PRICE<i class="fas fa-chevron-down"></i
+                ></span>
+              </div>
             </div>
             <div class="products-block__cards">
               <div class="products-block__card">
                 <img
-                  src="../img/products_img_1.png"
+                  src="img/products_img_1.png"
                   alt="products_img"
                   class="products-block__card__img"
                 />
@@ -78,7 +85,7 @@
               </div>
               <div class="products-block__card">
                 <img
-                  src="../img/products_img_2.png"
+                  src="img/products_img_7.png"
                   alt="products_img"
                   class="products-block__card__img"
                 />
@@ -96,7 +103,7 @@
               </div>
               <div class="products-block__card">
                 <img
-                  src="../img/products_img_3.png"
+                  src="img/products_img_3.png"
                   alt="products_img"
                   class="products-block__card__img"
                 />
@@ -132,7 +139,7 @@
               </div>
               <div class="products-block__card">
                 <img
-                  src="img/products_img_5.png"
+                  src="img/products_img_8.png"
                   alt="products_img"
                   class="products-block__card__img"
                 />
@@ -150,7 +157,61 @@
               </div>
               <div class="products-block__card">
                 <img
-                  src="img/products_img_6.png"
+                  src="img/products_img_9.png"
+                  alt="products_img"
+                  class="products-block__card__img"
+                />
+                <div class="products-block__card__text">
+                  <h4 class="products-block__card__heading">
+                    ELLERY X M'O CAPSULE
+                  </h4>
+                  <p class="products-block__card__discription">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                  <span class="products-block__card__price">$52.00</span>
+                </div>
+              </div>
+              <div class="products-block__card">
+                <img
+                  src="img/products_img_10.png"
+                  alt="products_img"
+                  class="products-block__card__img"
+                />
+                <div class="products-block__card__text">
+                  <h4 class="products-block__card__heading">
+                    ELLERY X M'O CAPSULE
+                  </h4>
+                  <p class="products-block__card__discription">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                  <span class="products-block__card__price">$52.00</span>
+                </div>
+              </div>
+              <div class="products-block__card">
+                <img
+                  src="img/products_img_11.png"
+                  alt="products_img"
+                  class="products-block__card__img"
+                />
+                <div class="products-block__card__text">
+                  <h4 class="products-block__card__heading">
+                    ELLERY X M'O CAPSULE
+                  </h4>
+                  <p class="products-block__card__discription">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                  <span class="products-block__card__price">$52.00</span>
+                </div>
+              </div>
+              <div class="products-block__card">
+                <img
+                  src="img/products_img_12.png"
                   alt="products_img"
                   class="products-block__card__img"
                 />
@@ -167,13 +228,19 @@
                 </div>
               </div>
             </div>
-            <div class="products-block__button">
-              <button class="products-block__button-products">
-                Browse All Product
-              </button>
+            <div class="page-navigation">
+              <i class="fas fa-chevron-left"></i>
+              <a class="page-navigation_link active" href="#">1</a>
+              <a class="page-navigation_link" href="#">2</a>
+              <a class="page-navigation_link" href="#">3</a>
+              <a class="page-navigation_link" href="#">4</a>
+              <a class="page-navigation_link" href="#">5</a>
+              <a class="page-navigation_link" href="#">6</a>
+              <a class="page-navigation_link" href="#">.....</a>
+              <a class="page-navigation_link" href="#">20</a>
+              <i class="fas fa-chevron-right"></i>
             </div>
           </article>
-          <footer></footer>
         </div>
       </section>
     </main>
@@ -260,21 +327,19 @@
         <div class="footer-page__social">
           <div class="footer-page__social__icon">
             <a href="#"
-              ><img src="../img/facebook_icon.svg" alt="facebook_icon"
+              ><img src="img/facebook_icon.svg" alt="facebook_icon"
             /></a>
           </div>
           <div class="footer-page__social__icon">
             <a href="#"
-              ><img src="../img/instagram_icon.svg" alt="instagram_icon"
+              ><img src="img/instagram_icon.svg" alt="instagram_icon"
             /></a>
           </div>
           <div class="footer-page__social__icon">
-            <a href="#"><img src="../img/p_icon.svg" alt="p_icon" /></a>
+            <a href="#"><img src="img/p_icon.svg" alt="p_icon" /></a>
           </div>
           <div class="footer-page__social__icon">
-            <a href="#"
-              ><img src="../img/twiter_icon.svg" alt="twiter_icon"
-            /></a>
+            <a href="#"><img src="img/twiter_icon.svg" alt="twiter_icon" /></a>
           </div>
         </div>
       </div>

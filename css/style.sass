@@ -32,6 +32,11 @@ body
 .promo-block
   background: #F1E4E6
   height: 764px
+.fa-search
+  color: white
+.mr
+  margin-right: 33px
+  color: white
 
 // PROMO
 
@@ -249,26 +254,65 @@ body
 
     // CATALOG PAGE
     
-.catalog-page__header
+.inner-pageheader
   background: #F8F3F4
   &__content
     display: flex
     justify-content: space-between 
     padding: 65px 0
-    &__menu
-      &__list
-        list-style-type: none
-        display: flex
-        li
-          font-weight: 300
-          font-size: 14px
-          line-height: 17px
-          color: #636363
-          margin-left: 5px
-        .active
-          font-weight: bold
-          color: #F16D7F
+  &__navigation
+    display: flex
+    a
+      font-weight: 300
+      font-size: 14px
+      line-height: 17px
+      color: #636363
+      margin-left: 5px
+      text-decoration: none
+    p
+      font-weight: bold
+      color: #F16D7F
+      font-size: 14px
+      line-height: 17px
+      margin-left: 5px
   h1
     font-size: 24px
     line-height: 29px
     color: #F16D7F
+.filter
+  width: 1140px - 450px
+  display: flex
+  justify-content: space-between
+
+.filter_text
+  margin-right: 10px
+  font-weight: 600
+  font-size: 14px
+  line-height: 17px
+.fa-sort-amount-up
+  margin-left: 10px
+.filter-category
+  width: 320px
+  display: flex
+  justify-content: space-between
+.filter_criterion
+  font-size: 14px
+  line-height: 17px
+  color: #6F6E6E
+.fa-chevron-down
+  margin-left: 10px
+
+.page-navigation
+  border: 1px solid #EBEBEB
+  width: 290px
+  display: flex
+  justify-content: space-between
+  margin: 20px auto 0
+  padding: 15px
+  align-items: center
+.page-navigation_link
+  font-weight: 300
+  font-size: 16px
+  line-height: 19px
+  color: #C4C4C4
+  text-decoration: none
