@@ -1,3 +1,27 @@
+@-webkit-keyframes animation {
+  0% {
+    color: orange;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+@keyframes animation {
+  0% {
+    color: orange;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: pink;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -172,6 +196,13 @@ body {
 
 .products-block__card__img {
   width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.products-block__card__img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .products-block__card__text {
@@ -240,6 +271,11 @@ body {
 
 .dignity-block__card__img {
   margin-bottom: 28px;
+}
+
+.dignity-block__card__img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .dignity-block__card__heading {
@@ -418,7 +454,8 @@ body {
 .inner-pageheader h1 {
   font-size: 24px;
   line-height: 29px;
-  color: #F16D7F;
+  -webkit-animation: animation infinite 2s linear;
+          animation: animation infinite 2s linear;
 }
 
 .filter {
